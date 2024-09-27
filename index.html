@@ -3,24 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academia Interativa</title>
+    <title>Profissional de Academia</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="banner">
-        <img src="ferrariii.jpeg" alt="Academia Fit" class="banner-image"> <!-- Substitua pelo caminho da sua imagem -->
-        <div class="banner-content">
-            <h1>Academia Fit</h1>
-            <p>Horário: <strong>6h às 22h</strong> (Segunda a Sábado)</p>
-            <p><strong>Mensalidade:</strong> R$ 89,90</p>
-            <p><strong>Pacote Anual:</strong> R$ 610,90</p>
-            <button onclick="toggleDetails()">Mais informações</button>
-            <div id="details" class="hidden">
-                <p>Treinos personalizados para todos os níveis!</p>
-                <p>Venha alcançar seus objetivos com a gente!</p>
+    <header class="header">
+        <div class="banner">
+            <img src="ferrariii.jpeg" alt="Academia Fit" class="banner-image"> <!-- Substitua pelo caminho da sua imagem -->
+            <div class="banner-content">
+                <h1>Nome do Profissional</h1>
+                <p>Personal Trainer | Especialista em Resultados</p>
+                <button onclick="toggleDetails()">Mais informações</button>
+                <div id="details" class="hidden">
+                    <p>Treinos personalizados para todos os níveis!</p>
+                    <p>Venha alcançar seus objetivos com a gente!</p>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
+    
+    <main>
+        <section class="info">
+            <h2>Sobre Mim</h2>
+            <p>Sou um personal trainer apaixonado por ajudar meus clientes a atingirem seus objetivos de fitness. Com anos de experiência e um plano de treinos personalizados, estou aqui para transformar sua rotina de exercícios.</p>
+        </section>
+
+        <section class="services">
+            <h2>Serviços Oferecidos</h2>
+            <ul>
+                <li>Treinamento Personalizado</li>
+                <li>Acompanhamento Nutricional</li>
+                <li>Treinos em Grupo</li>
+                <li>Consultoria Online</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contato</h2>
+            <p>Para mais informações, entre em contato:</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nome do Profissional. Todos os direitos reservados.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
