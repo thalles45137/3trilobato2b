@@ -22,6 +22,11 @@ body {
     transform: scale(1.05);
 }
 
+.banner-image {
+    width: 100%; /* Ajusta a largura da imagem ao tamanho do banner */
+    border-radius: 10px 10px 0 0; /* Arredonda os cantos superiores */
+}
+
 .hidden {
     display: none;
 }
