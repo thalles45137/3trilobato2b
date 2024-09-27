@@ -1,99 +1,23 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kawasaki - Página Inicial</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            background-image: url(thalis.jpg);
-            background-size: cover;
-            background-position: center;
-            
-        }
-    </style>
+    <title>Academia Interativa</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ferrari - Página Inicial</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>KAWASAKI</h1>
-            <nav>
-                <ul>
-                    <li><a href="https://www.kawasakibrasil.com/pt-br/?gad_source=1&gclid=EAIaIQobChMI1_394KrAiAMVblRIAB3rBQEPEAAYASAAEgII-_D_BwE">Home</a></li>
-                    <li><a href="https://www.kawasakibrasil.com/pt-br/motocicletas/z/supernaked/z500/2025-z500-se">Modelos</a></li>
-                    <li><a href="https://global.kawasaki.com/en/corp/history/index.html">História</a></li>
-                    <li><a href="https://www.whatsapp.com/?lang=pt_BR">Contato</a></li>
-                </ul>
-            </nav>
+    <div class="banner" id="banner">
+        <h1>Academia Fit</h1>
+        <p>Aberta de <strong>6h às 22h</strong>, de segunda a sábado.</p>
+        <p><strong>Valor mensal:</strong> R$ 89,90</p>
+        <p><strong>Pacote anual:</strong> R$ 610,90</p>
+        <button onclick="toggleDetails()">Mais informações</button>
+        <div id="details" class="hidden">
+            <p>Venha treinar com a gente e alcance seus objetivos!</p>
+            <p>Oferecemos diversas modalidades de treino.</p>
         </div>
-    </header>
-
-    <section id="home">
-        <div class="container">
-            <h2>Bem-vindo ao Mundo da kawasaki</h2>
-            <p>Descubra a paixão, o desempenho e a história da lendária marca Japonesa.</p>
-            <a href="https://www.kawasakibrasil.com/pt-br/motocicletas/z/supernaked/z500/2025-z500-se" class="btn">Veja nossos Modelos</a>
-        </div>
-    </section>
-
-    <section id="models">
-        <div class="container">
-            <h2>Nossos Modelos</h2>
-            <div class="model">
-                <img src="thalles1.jpeg" alt="Kawasaki Ninja 400 ">
-                <h3>Kawasaki Ninja 400</h3>
-                <p>Uma obra-prima de desempenho e elegância.</p>
-            </div>
-            <div class="model">
-                <img src="outra3.jpg" alt="Kawasaki Ninja 650">
-                <h3> Kawasaki Ninja 650</h3>
-                <p>A moto de alta performance mais avançado da Kawasaki.</p>
-                <img src="outra2.jpg" alt="Kawasaki Z900 R Edition ">
-                <h3>Kawasaki Z900 R Edition.</h3>
-                <p>Uma maquina das pistas.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="history">
-        <div class="container">
-            <h2>Nossa História</h2>
-            <p>EM 1878, O FUNDADOR SHOZO KAWASAKI,
-                começou um estaleiro para construir navios de aço transoceânicos. Em 1886, a incipiente operação foi expandida e passou a ser conhecida como Estaleiro Kawasaki. Dez anos depois, em 1896, O Estaleiro Kawasaki foi incorporado e Kojiro Matsukata foi apontado primeiro presidente da companhia. Foi iniciada a fabricação de locomotivas, vagões de carga e passageiros no recém-inaugurado complexo industrial Hyogo Works, e no ano seguinte, a produção de turbinas navais a vapor foi iniciada no estaleiro.
-                .</p>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Entre em Contato</h2>
-            <p>Para mais informações sobre nossos carros e serviços, entre em contato conosco.</p>
-            <form action="submit.php" method="POST">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 kawasaki. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
